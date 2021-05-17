@@ -1,0 +1,25 @@
+{
+  "name": "quote-telegram-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "listen": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piyush-chandak/quote-telegram-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piyush-chandak/quote-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/piyush-chandak/quote-telegram-bot#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "nodemon": "^2.0.7",
+    "telegraf": "^4.3.0"
+  }
+}
